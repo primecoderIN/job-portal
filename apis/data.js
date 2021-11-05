@@ -1,7 +1,7 @@
-const ActiveJobs = require("./ActiveJobs.json");
-const Applications = require("./Applications.json");
+const jobs = require("./jobs.json");
+const applications = require("./applications.json");
 
 module.exports = () => ({
-  ActiveJobs: ActiveJobs,
-  Applications: Applications,
+  jobs: jobs,
+  applications: applications,
 });
