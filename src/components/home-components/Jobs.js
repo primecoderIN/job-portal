@@ -6,9 +6,9 @@ export default function Jobs() {
   const [jobs, setJobs] = useState([]);
 
   const getJobList = async () => {
-    const response = await axios.get("http://localhost:5000/jobs");
-    setJobs(response.data.jobs.reverse());
-    console.log(response.data.jobs);
+    const response = await axios.get(" http://localhost:5000/jobs");
+    console.log(response.data);
+    setJobs(response.data.reverse());
   };
 
   useEffect(() => {

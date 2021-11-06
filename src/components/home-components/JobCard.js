@@ -18,7 +18,7 @@ export default function JobCard({
   title,
   type,
   salary,
-  Location,
+  location,
   company,
 }) {
   const classes = useStyles();
@@ -30,7 +30,7 @@ export default function JobCard({
             <Typography variant="h6">{title}</Typography>
           </Box>
           <Box>
-            <Typography variant="p" color="primary">
+            <Typography variant="h6" color="primary">
               {company}
             </Typography>
           </Box>
@@ -51,7 +51,7 @@ export default function JobCard({
           </Box>
           <Box display="flex" alignItems="center">
             <LocationCity />
-            <Typography variant="span">{Location}</Typography>
+            <Typography variant="h6">{location}</Typography>
           </Box>
         </Grid>
         <Grid item xs={1} className={classes.flexCenter}>
