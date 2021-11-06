@@ -1,3 +1,48 @@
 {
-    "jobs" : []
+    "jobs" : [
+        {
+            "id" : 34567,
+            "title" : "Frontend Developer",
+            "type" : "Full Time",
+             "experience" : 3,
+            "salary" : "300000-700000 PA",
+            "Location" : "Remote",
+            "company" : "Logitech",
+            "skills" : ["Javascript", "React Js", "Material UI", "Bootstrap"],
+            "description" : "The candidate should be able to translate designs and wireframes into attractive user interface."
+        },
+         {
+            "id" : 34568,
+            "title" : "Frontend Developer",
+            "type" : "Part Time",
+             "experience" : 1,
+            "salary" : "250000-400000 PA",
+            "Location" : "Office",
+            "company" : "Octalogic LLC",
+            "skills" : ["Javascript", "Angular", "Material UI", "SAAS"],
+              "description" : "The candidate should be able to translate designs and wireframes into attractive user interface."
+        },
+         {
+            "id" : 34569,
+            "title" : "Full Stack Developer",
+            "type" : "Part Time",
+            "experience" : 2,
+            "salary" : "900000-1100000 PA",
+            "Location" : "Office",
+            "company" : "Google",
+            "skills" : ["Javascript", "Angular", "Material UI", "SAAS","Node JS", "MongoDB"],
+              "description" : "The candidate should have hands on experience on real world projects."
+        },
+        {
+            "id" : 34570,
+            "title" : "Backend Developer",
+            "type" : "Full Time",
+             "experience" : 2,
+            "salary" : "600000-800000 PA",
+            "Location" : "Remote",
+            "company" : "Wipro",
+            "skills" : ["Node JS", "MongoDB", "My SQL", "Java", "Python"],
+              "description" : "The candidate should be able to develop Rest API and consume it to create interactive UI."
+        }
+    ]
 } 

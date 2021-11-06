@@ -21,12 +21,12 @@ function SearchBar() {
   const classes = useStyles();
   return (
     <Box p={2} className={classes.wrapper}>
-      <Select disableUnderline variant="outlined" defaultValue="Full Time">
+      <Select variant="outlined" defaultValue="Full Time">
         <MenuItem value="Full Time">Full Time</MenuItem>
         <MenuItem value="Part Time">Part Time</MenuItem>
         <MenuItem value="Contract">Contract</MenuItem>
       </Select>
-      <Select disableUnderline variant="outlined" defaultValue="Remote">
+      <Select variant="outlined" defaultValue="Remote">
         <MenuItem value="Remote">Remote</MenuItem>
         <MenuItem value="Office">Office</MenuItem>
       </Select>
