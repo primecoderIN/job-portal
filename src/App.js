@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/post-job" element={<PostJob />} />
-        <Route path="/search-job" element={<JobSearchPage />} />
+        <Route path="/jobs/add" element={<PostJob />} />
+        <Route path="/search" element={<JobSearchPage />} />
       </Routes>
     </BrowserRouter>
   );

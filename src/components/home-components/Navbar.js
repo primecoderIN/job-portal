@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Box, AppBar, Toolbar, makeStyles } from "@material-ui/core";
+import { Box, AppBar, Toolbar, makeStyles } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -16,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
   },
   btn: {
     marginLeft: "0.8rem",
+    textDecoration: "none",
+    padding: "12px 18px",
+    backgroundColor: theme.palette.primary.main,
+    color: "#fff",
     [theme.breakpoints.down("xs")]: {
       marginLeft: "0.5rem",
       fontSize: "0.6rem",
@@ -36,12 +41,12 @@ export default function Navbar() {
           <img className={classes.logo} src={logo} alt="Logo" />
         </Box>
         <Box>
-          <Button variant="contained" color="primary" className={classes.btn}>
+          <Link to="/jobs/add" className={classes.btn}>
             Post Job
-          </Button>
-          <Button variant="contained" color="primary" className={classes.btn}>
+          </Link>
+          <Link to="/search" className={classes.btn}>
             Search Job
-          </Button>
+          </Link>
         </Box>
       </Toolbar>
     </AppBar>
