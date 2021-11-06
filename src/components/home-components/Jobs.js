@@ -7,7 +7,6 @@ export default function Jobs() {
 
   const getJobList = async () => {
     const response = await axios.get(" http://localhost:5000/jobs");
-    console.log(response.data);
     setJobs(response.data.reverse());
   };
 

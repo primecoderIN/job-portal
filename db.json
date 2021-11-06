@@ -77,6 +77,45 @@
       "city": "Delhi",
       "skills": [],
       "description": "Need UI Developer"
+    },
+    {
+      "id": "61937",
+      "title": "",
+      "type": "Contract",
+      "salary": "",
+      "location": "Remote",
+      "company": "",
+      "city": "",
+      "skills": [],
+      "description": ""
+    },
+    {
+      "id": "69922",
+      "title": "Database Designer",
+      "type": "Contract",
+      "salary": "2000",
+      "location": "Remote",
+      "company": "Techosto",
+      "city": "Mumbai",
+      "skills": [
+        "Firebase",
+        "MongoDB"
+      ],
+      "description": "Database designer needed for large scale project"
+    },
+    {
+      "id": "37836",
+      "title": "Data Scientist",
+      "type": "Full Time",
+      "salary": "75000",
+      "location": "Office",
+      "company": "Microsoft",
+      "city": "New York",
+      "skills": [
+        "MongoDB",
+        "Firebase"
+      ],
+      "description": "Data Scientist needed "
     }
   ],
   "applications": []

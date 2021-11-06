@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, AppBar, Toolbar, makeStyles } from "@material-ui/core";
+import { Box, Button, AppBar, Toolbar, makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 
@@ -18,13 +18,6 @@ const useStyles = makeStyles((theme) => ({
   btn: {
     marginLeft: "0.8rem",
     textDecoration: "none",
-    padding: "12px 18px",
-    backgroundColor: theme.palette.primary.main,
-    color: "#fff",
-    [theme.breakpoints.down("xs")]: {
-      marginLeft: "0.5rem",
-      fontSize: "0.6rem",
-    },
   },
   logo: {
     [theme.breakpoints.down("xs")]: {
@@ -32,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
-export default function Navbar() {
+export default function Navbar({ postModalOpen, setPostModal }) {
   const classes = useStyles();
   return (
     <AppBar position="fixed">
@@ -41,11 +34,17 @@ export default function Navbar() {
           <img className={classes.logo} src={logo} alt="Logo" />
         </Box>
         <Box>
-          <Link to="/jobs/add" className={classes.btn}>
+          <Button
+            color="primary"
+            variant="contained"
+            onClick={() => setPostModal(true)}
+          >
             Post Job
-          </Link>
-          <Link to="/search" className={classes.btn}>
-            Search Job
+          </Button>
+          <Link to="/recruiter" className={classes.btn}>
+            <Button color="primary" variant="contained">
+              HR Panel
+            </Button>
           </Link>
         </Box>
       </Toolbar>

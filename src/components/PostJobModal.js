@@ -31,8 +31,13 @@ const useStyles = makeStyles((theme) => ({
       border: `1px solid ${theme.palette.primary.main}`,
     },
   },
+  activeSkill: {
+    backgroundColor: theme.palette.primary.main,
+    color: "#fff",
+    border: `1px solid ${theme.palette.primary.main}`,
+  },
 }));
-export default function PostJobModal() {
+export default function PostJobModal({ postModalOpen, setPostModal }) {
   const classes = useStyles();
   const skills = [
     "Javascript",
@@ -55,9 +60,23 @@ export default function PostJobModal() {
     description: "",
   });
 
+  const addRemoveSkill = (skill) => {
+    jobData.skills.includes(skill)
+      ? setJobData((oldState) => ({
+          ...oldState,
+          skills: oldState.skills.filter((s) => s !== skill),
+        }))
+      : setJobData((oldState) => ({
+          ...oldState,
+          skills: oldState.skills.concat(skill),
+        }));
+  };
+
   const handleChange = (e) => {
+    e.persist();
     const name = e.target.name;
     const value = e.target.value;
+    console.log(name, value);
     setJobData({ ...jobData, [name]: value });
   };
 
@@ -65,13 +84,14 @@ export default function PostJobModal() {
     e.preventDefault();
     console.log(jobData);
     await axios.post("http://localhost:5000/jobs", jobData);
+    setPostModal(false);
   };
   return (
-    <Dialog open={false} fullWidth>
+    <Dialog open={postModalOpen} fullWidth>
       <DialogTitle>
         <Box display="flex" justifyContent="space-between">
           Post Job
-          <IconButton>
+          <IconButton onClick={() => setPostModal(false)}>
             <CloseIcon />
           </IconButton>
         </Box>
@@ -156,11 +176,17 @@ export default function PostJobModal() {
             />
           </Grid>
           <Box mt={2}>
-            <Typography>Skills</Typography>
+            <Typography>Choose skills</Typography>
             <Box display="flex">
               {skills.map((skill) => {
                 return (
-                  <Box key={skill} className={classes.skill}>
+                  <Box
+                    onClick={() => addRemoveSkill(skill)}
+                    key={skill}
+                    className={`${classes.skill} ${
+                      jobData.skills.includes(skill) && classes.activeSkill
+                    }`}
+                  >
                     {skill}
                   </Box>
                 );
