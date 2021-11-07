@@ -3,12 +3,17 @@ import Hero from "../components/home-components/Hero";
 import SearchBar from "./home-components/SearchBar";
 import Jobs from "./home-components/Jobs";
 
-export default function Home() {
+export default function Home({ jobs, setJobs, setApplyModal, setApplyID }) {
   return (
     <div>
       <Hero />
       <SearchBar />
-      <Jobs />
+      <Jobs
+        jobs={jobs}
+        setJobs={setJobs}
+        setApplyModal={setApplyModal}
+        setApplyID={setApplyID}
+      />
     </div>
   );
 }

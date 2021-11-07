@@ -6,7 +6,7 @@ export const theme = createTheme({
       main: pink[500],
     },
     secondary: {
-      main: grey[900],
+      main: grey[100],
     },
   },
   breakpoints: {

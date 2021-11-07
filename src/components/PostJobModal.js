@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     border: `1px solid ${theme.palette.primary.main}`,
   },
 }));
-export default function PostJobModal({ postModalOpen, setPostModal }) {
+export default function PostJobModal({ postModalOpen, setPostModal, setJobs }) {
   const classes = useStyles();
   const skills = [
     "Javascript",
@@ -85,6 +85,8 @@ export default function PostJobModal({ postModalOpen, setPostModal }) {
     console.log(jobData);
     await axios.post("http://localhost:5000/jobs", jobData);
     setPostModal(false);
+    const newJobData = await axios.get("http://localhost:5000/jobs");
+    setJobs(newJobData.data.reverse());
   };
   return (
     <Dialog open={postModalOpen} fullWidth>

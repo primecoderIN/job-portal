@@ -116,7 +116,137 @@
         "Firebase"
       ],
       "description": "Data Scientist needed "
+    },
+    {
+      "id": "68150",
+      "title": "Management Operator",
+      "type": "Part Time",
+      "salary": "12LPA",
+      "location": "Office",
+      "company": "AAAA",
+      "city": "BBB",
+      "skills": [
+        "Javascript",
+        "Node",
+        "MongoDB"
+      ],
+      "description": "aaaaaaaasd"
+    },
+    {
+      "id": "17911",
+      "title": "Project Lead",
+      "type": "Contract",
+      "salary": "5000",
+      "location": "Remote",
+      "company": "Octalogic Services",
+      "city": "Goa",
+      "skills": [
+        "Node",
+        "MongoDB"
+      ],
+      "description": "Project Lead Needed"
     }
   ],
-  "applications": []
+  "applications": [
+    {
+      "id": "1",
+      "name": "Ajeet Kumar",
+      "email": "ajeet99@gmail.com",
+      "salary": "40000",
+      "notice": "15 Days",
+      "skills": [
+        "Angular",
+        "Bootstrap",
+        "Java"
+      ],
+      "notes": "I am suitable for this job"
+    },
+    {
+      "id": "2",
+      "name": "Manjeet Raj",
+      "email": "manjeetraj@gmail.com",
+      "salary": "50000",
+      "notice": "30 Days",
+      "skills": [
+        "MongoDB",
+        "Node"
+      ],
+      "notes": "I have potential to handle this job"
+    },
+    {
+      "id": "3",
+      "name": "Sunita Kumari",
+      "email": "sunita55@gmail.com",
+      "salary": "70000",
+      "notice": "15 Days",
+      "skills": [
+        "React Js",
+        "Python"
+      ],
+      "notes": "I am eligible for this post"
+    },
+    {
+      "id": "UhTEdS3",
+      "name": "Mohit",
+      "email": "mohit46@gmail.com",
+      "salary": "30000",
+      "notice": "30 Days",
+      "skills": [
+        "Node",
+        "MongoDB",
+        "Angular"
+      ],
+      "notes": "Hire Me",
+      "description": "i"
+    },
+    {
+      "id": "d2BaCir",
+      "name": "Mayank",
+      "email": "mayank1234@gmail.com",
+      "salary": "45000",
+      "notice": "30 Days",
+      "skills": [
+        "Javascript",
+        "Material UI",
+        "Firebase"
+      ],
+      "notes": "Give me a job"
+    },
+    {
+      "id": "x47zkSL",
+      "name": "Ankit SIngh",
+      "email": "ankit356@gmail.com",
+      "salary": "45000",
+      "notice": "15 Days",
+      "skills": [
+        "React"
+      ],
+      "notes": "Willing to join your company"
+    },
+    {
+      "id": "4O9FxQW",
+      "name": "Manoj Kumar",
+      "email": "manoj12@gmail.com",
+      "salary": "55000",
+      "notice": "15 Days",
+      "skills": [
+        "Firebase",
+        "Material UI"
+      ],
+      "notes": "Hire me"
+    },
+    {
+      "id": "WZB0eNR",
+      "name": "Sneha Biswas",
+      "email": "sneha45@gmail.com",
+      "salary": "40000",
+      "notice": "15 Days",
+      "skills": [
+        "MongoDB",
+        "Angular",
+        "Firebase"
+      ],
+      "notes": "Hire Me"
+    }
+  ]
 }

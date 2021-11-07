@@ -20,10 +20,12 @@ export default function JobCard({
   salary,
   location,
   company,
+  setApplyModal,
+  setApplyID,
 }) {
   const classes = useStyles();
   return (
-    <Box component="div" className={classes.wrapper} p={2} my={2} mx={14}>
+    <Box component="div" className={classes.wrapper} p={2} my={2} mx={12}>
       <Grid container direction="row" className={classes.box}>
         <Grid item xs={4} pt={5}>
           <Box mb={2}>
@@ -55,7 +57,14 @@ export default function JobCard({
           </Box>
         </Grid>
         <Grid item xs={1} className={classes.flexCenter}>
-          <Button variant="contained" color="primary">
+          <Button
+            onClick={() => {
+              setApplyID(id);
+              setApplyModal(true);
+            }}
+            variant="contained"
+            color="primary"
+          >
             Apply
           </Button>
         </Grid>
