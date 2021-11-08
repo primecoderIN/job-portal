@@ -87,6 +87,17 @@ export default function PostJobModal({ postModalOpen, setPostModal, setJobs }) {
     setPostModal(false);
     const newJobData = await axios.get("http://localhost:5000/jobs");
     setJobs(newJobData.data.reverse());
+    setJobData({
+      id: new Date().getTime().toString().substring(6, 11),
+      title: "",
+      type: "Contract",
+      salary: "",
+      location: "Remote",
+      company: "",
+      city: "",
+      skills: [],
+      description: "",
+    });
   };
   return (
     <Dialog open={postModalOpen} fullWidth>

@@ -85,6 +85,15 @@ export default function JobApplyModal({
     e.preventDefault();
     await axios.post("http://localhost:5000/applications", applyData);
     setApplyModal(false);
+    setApplyData({
+      id: "",
+      name: "",
+      email: "",
+      salary: "",
+      notice: "15 Days",
+      skills: [],
+      notes: "",
+    });
   };
   return (
     <Dialog open={applyModalOpen} fullWidth>

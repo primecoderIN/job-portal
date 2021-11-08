@@ -89,6 +89,22 @@
         "MongoDB"
       ],
       "description": "Data Designer needed"
+    },
+    {
+      "id": "45772",
+      "title": "Full Stack Developer",
+      "type": "Full Time",
+      "salary": "55000",
+      "location": "Remote",
+      "company": "Sipro Ltd",
+      "city": "Kolkata",
+      "skills": [
+        "MongoDB",
+        "Node",
+        "React",
+        "Javascript"
+      ],
+      "description": "Full stack developer"
     }
   ],
   "applications": [
@@ -134,6 +150,21 @@
         "Material UI"
       ],
       "notes": "I need this job"
+    },
+    {
+      "id": "y2cj_Um",
+      "name": "Sudipa Paul",
+      "email": "sudipa@gmail.com",
+      "salary": "90000",
+      "notice": "15 Days",
+      "skills": [
+        "React",
+        "Node",
+        "MongoDB",
+        "Javascript",
+        "Firebase"
+      ],
+      "notes": "I am eligible for this job"
     }
   ],
   "shortlisted": [
