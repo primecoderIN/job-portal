@@ -150,21 +150,6 @@
         "Material UI"
       ],
       "notes": "I need this job"
-    },
-    {
-      "id": "y2cj_Um",
-      "name": "Sudipa Paul",
-      "email": "sudipa@gmail.com",
-      "salary": "90000",
-      "notice": "15 Days",
-      "skills": [
-        "React",
-        "Node",
-        "MongoDB",
-        "Javascript",
-        "Firebase"
-      ],
-      "notes": "I am eligible for this job"
     }
   ],
   "shortlisted": [
@@ -193,6 +178,21 @@
         "Material UI"
       ],
       "notes": "I am mohan and want a job"
+    },
+    {
+      "id": "y2cj_Um",
+      "name": "Sudipa Paul",
+      "email": "sudipa@gmail.com",
+      "salary": "90000",
+      "notice": "15 Days",
+      "skills": [
+        "React",
+        "Node",
+        "MongoDB",
+        "Javascript",
+        "Firebase"
+      ],
+      "notes": "I am eligible for this job"
     }
   ]
 }

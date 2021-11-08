@@ -128,6 +128,7 @@ const ApplicantList = () => {
       `http://localhost:5000/applications/${id}`
     );
     await axios.post(`http://localhost:5000/shortlisted`, response.data);
+    rejectApplicant(id);
   };
 
   useEffect(() => {
