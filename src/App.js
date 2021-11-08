@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import JobSearchPage from "./components/JobSearchPage";
 import PostJobModal from "./components/PostJobModal";
 import JobApplyModal from "./components/JobApplyModal";
+import { HrPanel } from "./components/HrPanel";
 
 function App() {
   const [jobs, setJobs] = useState([]);
@@ -39,6 +40,7 @@ function App() {
           }
         />
         <Route path="/search" element={<JobSearchPage />} />
+        <Route path="recruiter" element={<HrPanel />} />
       </Routes>
     </BrowserRouter>
   );

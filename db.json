@@ -1,252 +1,167 @@
 {
   "jobs": [
     {
-      "id": 34567,
-      "title": "Frontend Developer",
-      "type": "Full Time",
-      "experience": 3,
-      "salary": "300000-700000 PA",
+      "id": "68913",
+      "title": "Software Developer",
+      "type": "Part Time",
+      "salary": "3500",
       "location": "Remote",
-      "company": "Logitech",
-      "skills": [
-        "Javascript",
-        "React Js",
-        "Material UI",
-        "Bootstrap"
-      ],
-      "description": "The candidate should be able to translate designs and wireframes into attractive user interface."
-    },
-    {
-      "id": 34568,
-      "title": "Frontend Developer",
-      "type": "Part Time",
-      "experience": 1,
-      "salary": "250000-400000 PA",
-      "location": "Office",
-      "company": "Octalogic LLC",
-      "skills": [
-        "Javascript",
-        "Angular",
-        "Material UI",
-        "SAAS"
-      ],
-      "description": "The candidate should be able to translate designs and wireframes into attractive user interface."
-    },
-    {
-      "id": 34569,
-      "title": "Full Stack Developer",
-      "type": "Part Time",
-      "experience": 2,
-      "salary": "900000-1100000 PA",
-      "location": "Office",
-      "company": "Google",
-      "skills": [
-        "Javascript",
-        "Angular",
-        "Material UI",
-        "SAAS",
-        "Node JS",
-        "MongoDB"
-      ],
-      "description": "The candidate should have hands on experience on real world projects."
-    },
-    {
-      "id": 34570,
-      "title": "Backend Developer",
-      "type": "Full Time",
-      "experience": 2,
-      "salary": "600000-800000 PA",
-      "location": "Remote",
-      "company": "Wipro",
-      "skills": [
-        "Node JS",
-        "MongoDB",
-        "My SQL",
-        "Java",
-        "Python"
-      ],
-      "description": "The candidate should be able to develop Rest API and consume it to create interactive UI."
-    },
-    {
-      "id": "77149",
-      "title": "UI Developer",
-      "type": "Part Time",
-      "salary": "5000",
-      "location": "Office",
-      "company": "India LLC",
+      "company": "Epox Software Solutions",
       "city": "Delhi",
-      "skills": [],
-      "description": "Need UI Developer"
-    },
-    {
-      "id": "61937",
-      "title": "",
-      "type": "Contract",
-      "salary": "",
-      "location": "Remote",
-      "company": "",
-      "city": "",
-      "skills": [],
-      "description": ""
-    },
-    {
-      "id": "69922",
-      "title": "Database Designer",
-      "type": "Contract",
-      "salary": "2000",
-      "location": "Remote",
-      "company": "Techosto",
-      "city": "Mumbai",
       "skills": [
-        "Firebase",
-        "MongoDB"
-      ],
-      "description": "Database designer needed for large scale project"
-    },
-    {
-      "id": "37836",
-      "title": "Data Scientist",
-      "type": "Full Time",
-      "salary": "75000",
-      "location": "Office",
-      "company": "Microsoft",
-      "city": "New York",
-      "skills": [
+        "Angular",
         "MongoDB",
         "Firebase"
       ],
-      "description": "Data Scientist needed "
+      "description": "Need a software developer"
     },
     {
-      "id": "68150",
-      "title": "Management Operator",
-      "type": "Part Time",
-      "salary": "12LPA",
-      "location": "Office",
-      "company": "AAAA",
-      "city": "BBB",
+      "id": "15554",
+      "title": "Frontend Developer",
+      "type": "Contract",
+      "salary": "35000",
+      "location": "Remote",
+      "company": "HLC Infotech",
+      "city": "Kolkata",
       "skills": [
         "Javascript",
-        "Node",
-        "MongoDB"
+        "React",
+        "Material UI",
+        "Angular"
       ],
-      "description": "aaaaaaaasd"
+      "description": "UI developer needed"
     },
     {
-      "id": "17911",
-      "title": "Project Lead",
-      "type": "Contract",
-      "salary": "5000",
+      "id": "22520",
+      "title": "Backend Developer",
+      "type": "Part Time",
+      "salary": "",
       "location": "Remote",
-      "company": "Octalogic Services",
-      "city": "Goa",
-      "skills": [
-        "Node",
-        "MongoDB"
-      ],
-      "description": "Project Lead Needed"
-    }
-  ],
-  "applications": [
-    {
-      "id": "1",
-      "name": "Ajeet Kumar",
-      "email": "ajeet99@gmail.com",
-      "salary": "40000",
-      "notice": "15 Days",
-      "skills": [
-        "Angular",
-        "Bootstrap",
-        "Java"
-      ],
-      "notes": "I am suitable for this job"
-    },
-    {
-      "id": "2",
-      "name": "Manjeet Raj",
-      "email": "manjeetraj@gmail.com",
-      "salary": "50000",
-      "notice": "30 Days",
+      "company": "Electra Software Solutions",
+      "city": "Mumbai",
       "skills": [
         "MongoDB",
-        "Node"
+        "Node",
+        "Firebase"
       ],
-      "notes": "I have potential to handle this job"
+      "description": "Backend Developer Needed"
     },
     {
-      "id": "3",
-      "name": "Sunita Kumari",
-      "email": "sunita55@gmail.com",
-      "salary": "70000",
-      "notice": "15 Days",
+      "id": "25220",
+      "title": "System Engineer",
+      "type": "Full Time",
+      "salary": "50000",
+      "location": "Office",
+      "company": "TechFin India Ltd",
+      "city": "Hyderabad",
       "skills": [
-        "React Js",
-        "Python"
+        "MongoDB",
+        "Angular",
+        "Firebase"
       ],
-      "notes": "I am eligible for this post"
+      "description": "System engineer needed"
     },
     {
-      "id": "UhTEdS3",
-      "name": "Mohit",
-      "email": "mohit46@gmail.com",
-      "salary": "30000",
-      "notice": "30 Days",
+      "id": "26778",
+      "title": "Web Designer",
+      "type": "Full Time",
+      "salary": "70000",
+      "location": "Remote",
+      "company": "Webtech India ltd",
+      "city": "Noida",
       "skills": [
         "Node",
         "MongoDB",
         "Angular"
       ],
-      "notes": "Hire Me",
-      "description": "i"
+      "description": "UI Designer needed"
     },
     {
-      "id": "d2BaCir",
-      "name": "Mayank",
-      "email": "mayank1234@gmail.com",
-      "salary": "45000",
-      "notice": "30 Days",
-      "skills": [
-        "Javascript",
-        "Material UI",
-        "Firebase"
-      ],
-      "notes": "Give me a job"
-    },
-    {
-      "id": "x47zkSL",
-      "name": "Ankit SIngh",
-      "email": "ankit356@gmail.com",
-      "salary": "45000",
-      "notice": "15 Days",
-      "skills": [
-        "React"
-      ],
-      "notes": "Willing to join your company"
-    },
-    {
-      "id": "4O9FxQW",
-      "name": "Manoj Kumar",
-      "email": "manoj12@gmail.com",
-      "salary": "55000",
-      "notice": "15 Days",
+      "id": "27295",
+      "title": "Database Designer ",
+      "type": "Part Time",
+      "salary": "50000",
+      "location": "Remote",
+      "company": "Ultra Data Solutions Ltd",
+      "city": "Delhi",
       "skills": [
         "Firebase",
-        "Material UI"
+        "MongoDB"
       ],
-      "notes": "Hire me"
-    },
+      "description": "Data Designer needed"
+    }
+  ],
+  "applications": [
     {
-      "id": "WZB0eNR",
-      "name": "Sneha Biswas",
-      "email": "sneha45@gmail.com",
-      "salary": "40000",
+      "id": "GR18tYx",
+      "name": "Sanjeev Kumar",
+      "email": "snjv52@email.com",
+      "salary": "35000",
       "notice": "15 Days",
       "skills": [
         "MongoDB",
-        "Angular",
-        "Firebase"
+        "Angular"
       ],
-      "notes": "Hire Me"
+      "notes": "Hire me "
+    },
+    {
+      "id": "dCq26Xi",
+      "name": "Mohan Kumar",
+      "email": "mohan@gmail.com",
+      "salary": "3460",
+      "notice": "15 Days",
+      "skills": [
+        "React",
+        "Node",
+        "MongoDB",
+        "Material UI"
+      ],
+      "notes": "I am mohan and want a job"
+    },
+    {
+      "id": "dQ90saY",
+      "name": "Naveen Singh",
+      "email": "naveensingh@gmail.com",
+      "salary": "50000",
+      "notice": "15 Days",
+      "skills": [
+        "Javascript",
+        "React",
+        "Node",
+        "MongoDB",
+        "Angular",
+        "Firebase",
+        "Material UI"
+      ],
+      "notes": "I need this job"
+    }
+  ],
+  "shortlisted": [
+    {
+      "id": "GR18tYx",
+      "name": "Sanjeev Kumar",
+      "email": "snjv52@email.com",
+      "salary": "35000",
+      "notice": "15 Days",
+      "skills": [
+        "MongoDB",
+        "Angular"
+      ],
+      "notes": "Hire me "
+    },
+    {
+      "id": "dCq26Xi",
+      "name": "Mohan Kumar",
+      "email": "mohan@gmail.com",
+      "salary": "3460",
+      "notice": "15 Days",
+      "skills": [
+        "React",
+        "Node",
+        "MongoDB",
+        "Material UI"
+      ],
+      "notes": "I am mohan and want a job"
     }
   ]
 }

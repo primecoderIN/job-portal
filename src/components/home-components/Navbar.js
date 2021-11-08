@@ -30,9 +30,11 @@ export default function Navbar({ postModalOpen, setPostModal }) {
   return (
     <AppBar position="fixed">
       <Toolbar className={classes.toolbar}>
-        <Box>
-          <img className={classes.logo} src={logo} alt="Logo" />
-        </Box>
+        <Link to="/">
+          <Box>
+            <img className={classes.logo} src={logo} alt="Logo" />
+          </Box>
+        </Link>
         <Box>
           <Button
             color="primary"

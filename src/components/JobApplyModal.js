@@ -84,8 +84,6 @@ export default function JobApplyModal({
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios.post("http://localhost:5000/applications", applyData);
-    const newApplyData = await axios.get("http://localhost:5000/applications");
-    setApplyData(newApplyData.data.reverse());
     setApplyModal(false);
   };
   return (
