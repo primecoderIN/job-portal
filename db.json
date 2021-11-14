@@ -109,47 +109,21 @@
   ],
   "applications": [
     {
-      "id": "GR18tYx",
-      "name": "Sanjeev Kumar",
-      "email": "snjv52@email.com",
-      "salary": "35000",
+      "id": 1,
+      "name": "Hansal Mehta",
+      "email": "hansalfriendly@gmail.com",
+      "salary": "30000",
       "notice": "15 Days",
       "skills": [
-        "MongoDB",
-        "Angular"
-      ],
-      "notes": "Hire me "
-    },
-    {
-      "id": "dCq26Xi",
-      "name": "Mohan Kumar",
-      "email": "mohan@gmail.com",
-      "salary": "3460",
-      "notice": "15 Days",
-      "skills": [
-        "React",
-        "Node",
-        "MongoDB",
-        "Material UI"
-      ],
-      "notes": "I am mohan and want a job"
-    },
-    {
-      "id": "dQ90saY",
-      "name": "Naveen Singh",
-      "email": "naveensingh@gmail.com",
-      "salary": "50000",
-      "notice": "15 Days",
-      "skills": [
-        "Javascript",
-        "React",
-        "Node",
         "MongoDB",
         "Angular",
         "Firebase",
-        "Material UI"
+        "Material UI",
+        "Node",
+        "Javascript",
+        "React"
       ],
-      "notes": "I need this job"
+      "notes": "I want this job "
     }
   ],
   "shortlisted": [
@@ -193,6 +167,23 @@
         "Firebase"
       ],
       "notes": "I am eligible for this job"
+    },
+    {
+      "id": "dQ90saY",
+      "name": "Naveen Singh",
+      "email": "naveensingh@gmail.com",
+      "salary": "50000",
+      "notice": "15 Days",
+      "skills": [
+        "Javascript",
+        "React",
+        "Node",
+        "MongoDB",
+        "Angular",
+        "Firebase",
+        "Material UI"
+      ],
+      "notes": "I need this job"
     }
   ]
 }

@@ -40,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
   skill: {
     marginRight: "0.5rem",
+    marginBottom: "0.5rem",
     backgroundColor: theme.palette.secondary.main,
     padding: "8px 12px",
     borderRadius: "30px",
@@ -146,7 +147,13 @@ const ApplicantList = () => {
                 Notice Period : {notice}
               </Typography>
             </Box>
-            <Box py={1} my={1} display="flex" justifyContent="start">
+            <Box
+              py={1}
+              my={1}
+              display="flex"
+              justifyContent="start"
+              flexWrap="wrap"
+            >
               {skills.map((skill) => {
                 return (
                   <Typography className={classes.skill}>{skill}</Typography>
@@ -200,7 +207,13 @@ const ShortlistedCandidates = () => {
             <Box py={1} my={1} display="flex">
               <Typography>Name : {name}</Typography>
             </Box>
-            <Box py={1} my={1} display="flex" justifyContent="start">
+            <Box
+              py={1}
+              my={1}
+              display="flex"
+              justifyContent="start"
+              flexWrap="wrap"
+            >
               {skills.map((skill) => {
                 return (
                   <Typography className={classes.skill}>{skill}</Typography>
