@@ -107,25 +107,7 @@
       "description": "Full stack developer"
     }
   ],
-  "applications": [
-    {
-      "id": 1,
-      "name": "Hansal Mehta",
-      "email": "hansalfriendly@gmail.com",
-      "salary": "30000",
-      "notice": "15 Days",
-      "skills": [
-        "MongoDB",
-        "Angular",
-        "Firebase",
-        "Material UI",
-        "Node",
-        "Javascript",
-        "React"
-      ],
-      "notes": "I want this job "
-    }
-  ],
+  "applications": [],
   "shortlisted": [
     {
       "id": "GR18tYx",
@@ -184,6 +166,23 @@
         "Material UI"
       ],
       "notes": "I need this job"
+    },
+    {
+      "id": 1,
+      "name": "Hansal Mehta",
+      "email": "hansalfriendly@gmail.com",
+      "salary": "30000",
+      "notice": "15 Days",
+      "skills": [
+        "MongoDB",
+        "Angular",
+        "Firebase",
+        "Material UI",
+        "Node",
+        "Javascript",
+        "React"
+      ],
+      "notes": "I want this job "
     }
   ]
 }
