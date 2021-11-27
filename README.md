@@ -4,3 +4,6 @@ Use below mentioned commands in two different terminals to evaluate this project
 
 1. "npm start" to start react project
 2. "npm run json-server" to start dummy Rest Api Server
+
+
+Lama Dev Netflix UI : https://github.com/safak/youtube/tree/react-netflix-ui
