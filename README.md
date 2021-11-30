@@ -7,3 +7,7 @@ Use below mentioned commands in two different terminals to evaluate this project
 
 
 Lama Dev Netflix UI : https://github.com/safak/youtube/tree/react-netflix-ui
+
+
+Working with local storage is there in this mini project 
+https://github.com/dmalvia/React_Tutorial_Contact_Manager_App
